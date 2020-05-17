@@ -12,5 +12,6 @@
 <% @microposts.each do |micropost| %>
   <%= micropost.content %>
 <% end %>
+<%# @micropost.content　で1個目のコメントの内容を見れる %>
 <%= link_to 'Edit', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %>
